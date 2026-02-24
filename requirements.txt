@@ -13,4 +13,5 @@ langchain
 tldextract
 bs4 
 html2text
-
+langchain-text-splitters
+langchain-classic

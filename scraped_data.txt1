@@ -1,0 +1,291 @@
+--- Page: https://python.langchain.com/docs/introduction/ ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://chat.langchain.com/ ---
+
+Loading...
+
+--- Page: https://python.langchain.com/oss/python/deepagents/overview ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/langchain/overview ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/langgraph/overview ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/learn ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/langchain/quickstart ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/langchain/agents ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
+
+--- Page: https://python.langchain.com/oss/python/langchain/models ---
+
+Python
+
+# LangChain overview
+
+LangChain is an open source framework with a pre-built agent architecture and integrations for any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+##
+
+​
+
+Create an agent
+
+` # pip install -qU langchain "langchain[anthropic]" from langchain.agents import create_agent def get_weather ( city : str ) -> str : """Get weather for a given city.""" return f "It's always sunny in { city } !" agent = create_agent( model = "claude-sonnet-4-5-20250929" , tools = [get_weather], system_prompt = "You are a helpful assistant" , ) # Run the agent agent.invoke( { "messages" : [{ "role" : "user" , "content" : "what is the weather in sf" }]} ) `
+
+##
+
+​
+
+Core benefits
+
+## Standard model interface
+
+## Easy to use, highly flexible agent
+
+## Built on top of LangGraph
+
+## Debug with LangSmith
+
+Was this page helpful?
+
+Resources
+
+Company
